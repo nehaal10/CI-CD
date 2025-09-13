@@ -10,7 +10,7 @@ jobs:
           run: echo "This is my forst workflow"
 
         - name: clone The repo
-          run: git clone https://github.com/nehaal10/CI-CD.git
+          run: git clone https://github.com/nehaal10/CI-CD.git && cd CI-CD
 
         - name: Get the current directory
           run: pwd
