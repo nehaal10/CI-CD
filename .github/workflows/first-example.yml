@@ -9,6 +9,9 @@ jobs:
         - name: Welcome Message
           run: echo "This is my forst workflow"
 
+        - name: Get the current directory
+          run: pwd
+
         - name: List Files
           run: ls
         
